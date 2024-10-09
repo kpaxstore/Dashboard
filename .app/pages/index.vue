@@ -88,7 +88,7 @@ const onSubmit = handleSubmit(async (values) => {
   catch (error: any) {
     // this will set the error on the form
     if (error.message === 'Fake backend validation error') {
-      setFieldError('password', 'Invalid credentials (use "password")')
+      setFieldError('password', 'Credenciais invalidas')
     }
     return
   }
